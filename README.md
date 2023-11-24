@@ -22,8 +22,6 @@
 
 
 ## Libraries & Plugins
-- Following Clean Architecture
-- Following MVVM Architecture
 - [Coil](https://coil-kt.github.io/coil/) - Image Loader with memory caching
 - [Dagger Hilt](https://dagger.dev/hilt/) -  Dependency injection
 - [Detekt](https://github.com/detekt/detekt) - Static code analysis
