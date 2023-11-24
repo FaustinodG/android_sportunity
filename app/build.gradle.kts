@@ -75,13 +75,9 @@ android {
 
 dependencies {
 
-    implementation(libs.androidx.activity.compose)
-    implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
-    implementation(libs.bundles.androidx.compose.ui)
-    implementation(libs.coil.compose.kt)
-    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.coil.kt)
 
     // Dagger
     implementation(libs.google.dagger.hilt.android)
@@ -126,11 +122,6 @@ dependencies {
     testImplementation(libs.mockito)
     testImplementation(libs.arch.core.testing)
 
-    androidTestImplementation(libs.androidx.compose.ui.ui.test.junit4)
-    androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.test.ext.junit)
-    androidTestImplementation(platform(libs.androidx.compose.bom))
 
-    debugImplementation(libs.androidx.compose.ui.ui.test.manifest)
-    debugImplementation(libs.androidx.compose.ui.ui.tooling)
 }

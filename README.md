@@ -2,9 +2,10 @@
 ![Static Badge](https://img.shields.io/badge/kotlin-1.9.20-blue)
 ![Static Badge](https://img.shields.io/badge/minsdk-24-blue)
 
-## Features
-- Retrieve list of events using Paging3
-- View race details using Google Maps SDK
+## Prerequisites
+- Swipe To Refresh functionality
+- Paginated List
+- Use XML views
 
 ## Architecture
 ![Architecture](architecture.png)
@@ -21,12 +22,15 @@
 - Use Case Pattern
 
 
-## Libraries & Plugins
+## Libraries & Frameworks
 - [Coil](https://coil-kt.github.io/coil/) - Image Loader with memory caching
 - [Dagger Hilt](https://dagger.dev/hilt/) -  Dependency injection
 - [Detekt](https://github.com/detekt/detekt) - Static code analysis
 - [Gradle Version Catalog](https://docs.gradle.org/8.1/userguide/platforms.html) - Gradle version catalog
+- [Paging3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview) - Paging Library
+- [Junit4](https://junit.org/junit4/) - Testing Framework
 - [Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html)
+- [Timber](https://github.com/JakeWharton/timber) - Logging
 - [Retrofit2](https://square.github.io/retrofit/) using Gson Converter
 
 ## Possible Improvements
