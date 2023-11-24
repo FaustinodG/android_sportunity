@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sportunity</string>
+    <string name="marker_start">Start Point</string>
+    <string name="marker_end">End Point</string>
+    <string name="participants">%1\$s participants</string>
+    <string name="date_range">%1\$s - %2\$s</string>
+</resources>

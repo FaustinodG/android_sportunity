@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/eventListFragment">
+
+    <fragment
+        android:id="@+id/eventListFragment"
+        android:name="com.faustinodegroot.sportunity.ui.fragment.EventListFragment"
+        android:label="eventListFragment"
+        tools:layout="@layout/fragment_event_list">
+        <action
+            android:id="@+id/action_eventListFragment_to_eventDetailFragment"
+            app:destination="@id/eventDetailFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/eventDetailFragment"
+        android:name="com.faustinodegroot.sportunity.ui.fragment.RaceDetailFragment"
+        android:label="eventDetailFragment"
+        tools:layout="@layout/fragment_race_detail">
+
+        <argument
+            android:name="eventId"
+            app:argType="integer" />
+        <argument
+            android:name="raceId"
+            app:argType="integer" />
+
+        <argument
+            android:name="eventName"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
